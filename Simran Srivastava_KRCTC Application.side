@@ -1,0 +1,455 @@
+{
+  "id": "ca885a29-359b-442a-a33c-46133baf7435",
+  "version": "2.0",
+  "name": "KSRTC Application",
+  "url": "https://www.ksrtc.in",
+  "tests": [{
+    "id": "10d00b62-5e82-4610-a8fb-fec686855680",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "31868973-b32a-49b3-9a35-e36385c75654",
+    "name": "test case 1",
+    "commands": [{
+      "id": "0d04a91c-30c7-4fd6-8dae-05f28a904b06",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c533c1-45db-4eed-a93d-271ae3c626ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bb0b8d4-4553-487f-a115-43d34df04428",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "KSRTC Official Website for Online Bus Ticket Booking - KSRTC.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "238f7b5e-1205-418b-a8bc-021b66ee33ee",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "KSRTC Official Website for Online Bus Ticket Booking - KSRTC.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61f466ac-fed4-4bbf-98b2-4cfcd3170032",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "99243e66-ff13-4717-9853-3f3e4a56cb89",
+    "name": "test case 2",
+    "commands": [{
+      "id": "ac78c489-6b50-4488-8cfd-30431ae4a19d",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd8368e3-7558-4f40-b1a3-53d8fc72808f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d303981e-a76f-43ff-a75d-a2cac73025b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c4b47ea-65ac-424e-bc19-805de22d6897",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a924aee-b856-4dd0-ad04-e0d50d2faa19",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1a5bfe-5592-4856-8b0e-4be605c3288d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-28",
+      "targets": [
+        ["id=ui-id-28", "id"],
+        ["linkText=BANGALORE", "linkText"],
+        ["css=#ui-id-28", "css:finder"],
+        ["xpath=//a[contains(text(),'BANGALORE')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-28']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BANGALORE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf7bc8e-c499-4c9c-83f0-ed1aada671d9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "55b9012b-8185-432c-bb89-8de236e44bbb",
+    "name": "test case 3",
+    "commands": [{
+      "id": "c13b82e1-d6ce-474a-adc8-aedcd8c243a4",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c00ace3-f9ce-4b83-a7e7-bc86754d6182",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c8cf797-613e-448c-b6bc-c24c63618588",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2e64e5-7267-4863-8265-8db57c615d7e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d5719f1-bb45-4b74-a2a9-9b2b449c7573",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0809ad-e9c7-492e-9fb0-463e7255fb84",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7fb2525-07d6-41d3-92bd-2b72e5098f84",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-3",
+      "targets": [
+        ["id=ui-id-3", "id"],
+        ["linkText=MUMBAI", "linkText"],
+        ["css=#ui-id-3", "css:finder"],
+        ["xpath=//a[contains(text(),'MUMBAI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-3']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUMBAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae2a7db4-cc33-44b5-a888-806b47e21cb8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "202d768a-3c0e-41fc-afe0-d2e3a073823a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b515d29b-ea6c-4294-83e6-d7356ac9249a",
+    "name": "test case 4",
+    "commands": [{
+      "id": "134f6787-41e9-4bd8-9c92-b3a5debc8e6b",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa593a92-0301-453f-afad-d5ccf2c5de24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfa50447-c7b9-4922-a681-59b5f289f36f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,267.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3153deb4-d4fc-40e1-9105-c7955d05b096",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": "Search for Bus"
+    }, {
+      "id": "9b1ee013-7c41-4a91-8f27-9d6c3fbaa231",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8a9974c-9fb0-4920-b4c4-b1ed52eeffc2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "77b19710-b3fd-45aa-b6bd-ab6b89f21271",
+    "name": "test case 5",
+    "commands": [{
+      "id": "10dec7d1-ff66-47a9-be14-ac3f8dbd6c77",
+      "comment": "",
+      "command": "open",
+      "target": "https://ksrtc.in/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd0a37bd-6c1c-4688-862d-2534a8a665a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7adab199-8bec-489d-bbca-397cac4a345c",
+      "comment": "",
+      "command": "click",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3faad1b4-22ac-45b3-8db3-b592ff87cb14",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-3",
+      "targets": [
+        ["id=ui-id-3", "id"],
+        ["linkText=MUMBAI", "linkText"],
+        ["css=#ui-id-3", "css:finder"],
+        ["xpath=//a[contains(text(),'MUMBAI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-3']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-1']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MUMBAI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26ef7cc-02f1-4195-9771-77beb2d19413",
+      "comment": "",
+      "command": "type",
+      "target": "id=fromPlaceName",
+      "targets": [
+        ["id=fromPlaceName", "id"],
+        ["name=fromPlaceName", "name"],
+        ["css=#fromPlaceName", "css:finder"],
+        ["xpath=//input[@id='fromPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "MUMBAI"
+    }, {
+      "id": "47279fb6-caab-4018-ad68-5be40cd0cfb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "607ecfc4-160f-47df-962b-9e71d46864f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ui-id-4",
+      "targets": [
+        ["id=ui-id-4", "id"],
+        ["linkText=ALAMATTI", "linkText"],
+        ["css=#ui-id-4", "css:finder"],
+        ["xpath=//a[contains(text(),'ALAMATTI')]", "xpath:link"],
+        ["xpath=//a[@id='ui-id-4']", "xpath:attributes"],
+        ["xpath=//ul[@id='ui-id-2']/li/a", "xpath:idRelative"],
+        ["xpath=//body/ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ALAMATTI')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe2570e5-0882-4aed-bd76-5b36622cc865",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea723530-8bbd-4d8c-9d27-16d13c6e0ac1",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "KSRTC Official Website for Online Bus Ticket Booking - KSRTC.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf300fc0-ee78-4bff-9898-cdd0d6d45325",
+      "comment": "",
+      "command": "click",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a7a563-d09e-4528-ac43-5e0aed20693b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=toPlaceName",
+      "targets": [
+        ["id=toPlaceName", "id"],
+        ["name=toPlaceName", "name"],
+        ["css=#toPlaceName", "css:finder"],
+        ["xpath=//input[@id='toPlaceName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div/div/div[2]/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d054e6c-24ea-4288-951a-23b130b46c96",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cb715ea1-5c8a-456e-9801-925f8f2b4faf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["10d00b62-5e82-4610-a8fb-fec686855680"]
+  }],
+  "urls": ["https://www.ksrtc.in/"],
+  "plugins": []
+}
